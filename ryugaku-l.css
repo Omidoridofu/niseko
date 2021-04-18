@@ -1,0 +1,402 @@
+/*
+Theme Name: koala-wp
+Theme URL: programingbeginer.biz/
+Description: サンプルテーマ
+Version: 2.0
+Author: koala
+Authour URL: programingbeginer.biz/
+*/
+hr{
+    margin:15px auto;
+}
+*{
+    margin:0;
+    padding:0;
+}
+body{
+    margin:0;
+    padding:0;
+    font-family: 'TsukuARdGothic-Regular';
+    
+
+}
+
+a,h1,p{
+    text-decoration: none;
+    color:rgb(61, 61, 61);
+}
+
+@media screen and (min-width: 1000px){
+    header{
+        width:100%;
+        position:relative;
+        border-bottom:2px solid rgb(224, 210, 210);
+        height:92px;
+        background-color: rgb(255, 255, 255);
+    }
+    #header-logo{
+        height:80px;
+        left:3%;
+        position:absolute;
+        top:3px;
+    }
+    #header-btn-ct{
+        position:absolute;
+        right:70px;
+        transform: translate(-50%,-50%);
+        top:50%;
+    }
+    #header-btn-ct a{
+        border:1px solid transparent;
+        border-radius:35px;
+        background-color:#2b526957;
+
+        display:inline-block;
+        justify-content: center;
+        align-items:center;
+        position:relative;
+        width:100px;
+        height:40px;
+        font-weight:bold;
+        text-align:center;
+        line-height:40px;
+    }
+    
+    #header-btn-ct a::before{
+        content:'';
+        position:absolute;
+        top:-5px;
+        left:-5px;
+        width:100%;
+        height:100%;
+        background-color:transparent;
+        border:1px solid #333;
+        border-radius:35px;
+        
+    }
+    #nav-bar{
+        list-style: none;
+        position:absolute;
+        text-align:center;
+        transform: translate(-50%,-50%);
+        top:50%;
+        left:42%;
+    }
+    #nav-bar li{
+        display:inline-block;
+        font-weight:bold;
+        font-size:16px;
+    }
+    #nav-bar li::before {
+        content: "｜";
+    }
+    /* ヘッダー エンド*/
+    #main-body{
+        width:100%;
+    }
+    /* アバウト */
+    #about-niseko-ct{
+        text-align:center;
+        width:100%;
+        position:relative;
+
+        display:none;
+    }
+    #about-text{
+        width:600px;
+        height:240px;
+        position:absolute;
+        background-color: rgba(255, 255, 255, 0.61);
+        transform: translate(-50%,-50%);
+        left:35%;
+        top:50%;
+        text-align:left;
+        padding:18px;
+    }
+    #about-niseko-backimg{
+        width:100%;
+    }
+    #about-text h1{
+        color:rgb(65, 65, 65);
+        letter-spacing: 1px;
+    }
+    #about-text p{
+        margin-top:30px;
+        font-size:14px;
+        letter-spacing: 1px;
+    }
+    /* アバウト　2*/
+    #about2-ct{
+        width:100%;
+        text-align:center;
+        padding:40px 0 50px;
+        background-size: cover;
+        background-image: url(4662174_lのコピー.jpg);
+        background-color:rgba(92, 63, 63, 0.7);
+        background-blend-mode:lighten;  
+        background-attachment: fixed;
+    }
+    #about2-ct h1{
+        letter-spacing:2px;
+        font-size:40px;
+        color:#2b5269;
+    }
+    #about2-ct p{
+        letter-spacing:0.5px;
+        margin-top:20px;
+        font-weight:bold;
+        font-size:19px;
+    }
+    /* ニュース */
+    #news-ct{
+        width:70%;
+        margin:0 auto;
+    }
+    #news-title{
+        text-align:center;
+    }
+    #news-title span{
+        background:linear-gradient(transparent 70%, #FFFF00 0%);
+    }
+    #news-left{
+        width:55%;
+        height:400px;
+        display:inline-block;
+        vertical-align: top;
+        background-color: rgba(204, 204, 204, 0.301);
+        padding:5px;
+    }
+    .news-left-indi{
+        height:45%;
+        width:100%;
+    }
+    .news-left-title-p{
+        font-weight:bold;
+        text-align:center;
+        font-size:22px;
+    }
+    #news-content ul{
+        margin:5px 0 ;
+    }
+    /* ーーーーーーーーーーーーーーーーコンテンツーーーーーーーーーーーーーーーー */
+    #news-content{
+        width:94%;
+        margin:0 auto;
+    }
+    
+    #news-content li{
+        list-style: none;
+        border-bottom:1px dotted #000;
+        padding:4px 10px;
+    }
+    #news-content time{
+        font-weight:bold;
+        margin-right:20px;
+    }
+    #news-content p{
+        display:inline-block;
+        text-decoration: underline;
+        color:rgb(96, 96, 150);
+    }
+    .new::after{
+        content:"NEW";
+        color: #d10606;
+        font-size: 1.1rem;
+        border: 1px solid #d10606;
+        padding: 4px 8px;
+        margin: 0 0 0 20px;
+        display: inline-block;
+        line-height: 1;
+    }
+      #see-more{
+        text-align:center;
+        margin:10px;
+    }
+    #see-more a{
+        text-decoration: underline;
+        text-align:center;
+    }
+      /* news-right */
+    #news-right{
+        width:40%;
+        height:400px;
+        display:inline-block;
+        vertical-align: top;
+    }
+    .banner{
+        height:30%;
+        width:100%;
+        text-align:center;
+        margin-bottom:5px;
+    }
+    /* ニュースエンド */
+    .search-title{
+        height:80px;
+    }
+    #search-age{
+        text-align:center;
+        background-color:rgba(213, 230, 255, 0.842);
+    }
+    
+    .search-area h1{
+        letter-spacing:1px;
+        font-size:27px;
+    }
+    .search-image-ct{
+        width:153px;
+        display:inline-block;
+        margin:20px 20px;
+    }
+    .search-img{
+        width:150px;
+    }
+    .search-image-ct p{
+        letter-spacing:1px;
+    }
+    #search-purpose-content{
+        margin:15px auto;
+        width:70%;
+        
+    }
+    #search-purpose{
+        text-align:center;
+    }
+    
+    #search-purpose{
+        width:100%;
+        margin:0 auto;
+    }
+    .search-purpose-indi{
+        display:inline-block;
+        vertical-align:top;
+        margin:0 auto;
+        width:32%;
+        height:360px;
+        position:relative;
+        border:1px solid rgb(224, 224, 224);
+        background-color:white;
+    }
+    .search-purpose-indi img{
+        width:100%;
+    }
+    
+    .purpose-indi-title{
+        position:absolute;
+        transform:translate(-50%,-50%);
+        left:50%;
+        top:50%;
+        width:100%;
+        font-size:21px;
+        letter-spacing:1px;
+    }
+    .search-purpose-indi p{
+        width:80%;
+        margin:0 auto;
+    }
+    /* メイン　エンド */
+    footer{
+        width:100%;
+        text-align:center;
+        background-color:#e6e6e6;
+        height:500px;
+    }
+    #footer-content-ct{
+        width:70%;
+        height:300px;
+        margin:0 auto;
+    }
+    #footer-indi-1{
+        height:280px;
+        width:280px;
+        display:inline-block;
+        vertical-align:top;
+        text-align:left;
+    }
+    #footer-indi-2{
+        height:280px;
+        width:280px;
+        display:inline-block;
+        vertical-align:top;
+        text-align:left;
+    }
+
+    .footer-indi-title{
+        font-weight:bold;
+        margin-bottom:10px;
+    }
+    .footer-indi-untitle{
+        font-size:14px;
+        margin:2px 0;
+    }
+    #copyright{
+        color:rgb(165, 165, 165);
+        font-size:10px;
+        letter-spacing: 2px;
+    }
+    /* ---- */
+    #more-age-ct{
+        width:100%;
+    }
+    #more-age-select{
+        width:70%;
+        margin:0 auto;
+    }
+    .age-select-indi{
+        width:80%;
+        height:200px;
+        margin:10px auto;
+        position:relative;
+        text-align:center;
+    }
+    .age-select-img-right{
+        position:absolute;
+        height:100%;
+        right:0;
+        z-index:-2;
+    }
+    .age-select-img-left{
+        position:absolute;
+        height:100%;
+        left:0;
+        z-index:-2;
+    }
+    .age-select-title{
+        margin:20px 10px;
+        letter-spacing:1px;
+        font-size:22px;
+        z-index: 88;
+        position:absolute;
+        transform: translate(-50%,-50%);
+        left:50%;
+        top:10%;
+        z-index:1;
+    }
+    .age-desc-left{
+        width:300px;
+        position:absolute;
+        top:65px;
+        left:10px;
+        z-index:88;
+    }
+    .age-desc-right{
+        width:300px;
+        position:absolute;
+        top:65px;
+        right:10px;
+        letter-spacing:1px;
+    }
+    /*  */
+    #reason-ct{
+        width:100%;
+
+    }
+    #reason-content{
+        width:70%;
+        margin:0 auto;
+        border:1px solid black;
+        height:800px;
+        text-align:center;
+    }
+    
+  
+}
