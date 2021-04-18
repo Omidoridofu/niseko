@@ -1,0 +1,257 @@
+/*
+Theme Name: koala-wp
+Theme URL: programingbeginer.biz/
+Description: サンプルテーマ
+Version: 2.0
+Author: koala
+Authour URL: programingbeginer.biz/
+*/
+
+/* タイトル　22px */
+
+@media screen and (max-width: 750px){
+    /* アバウト */
+    #about-niseko-ct{
+        text-align:center;
+        width:100%;
+        
+        position:relative;
+        display:none;
+    }
+    #about-text{
+        width:86%;
+        height:160px;
+        position:absolute;
+        background-color: rgba(255, 255, 255, 0.61);
+        transform: translate(-50%,-50%);
+        left:50%;
+        top:50%;
+        text-align:left;
+        padding:18px;
+    }
+    #about-niseko-backimg{
+        width:100%;
+    }
+    #about-text h1{
+        color:rgb(65, 65, 65);
+        letter-spacing: 1px;
+        font-size:20px;
+    }
+    #about-text p{
+        margin-top:30px;
+        font-size:13px;
+        letter-spacing: 1px;
+    }
+    /* アバウト　エンド */
+    header{
+        text-align:center;
+        border-bottom:2px solid rgb(224, 210, 210);
+    }
+    #header-logo{
+        width:90px;
+    }
+    #header-btn-ct{
+        display:none;
+    }
+    #nav-bar{
+        display:none;
+    }
+    /* ----- */
+    #about2-ct{
+        text-align:center;
+        background-image:url(4662174_lのコピー.jpg);
+        background-size:cover;
+        background-color:rgba(255,255,255,0.7);
+        background-blend-mode:lighten;  
+        height:250px;
+    }
+    #about2-ct h1{
+        font-size:20px;
+        letter-spacing:1px ;
+        padding-top:20px;
+    }
+    #about2-ct p{
+        font-size:12px;
+        margin-top:20px;
+    }
+    /* ---- */
+    #main-body{
+        width:100%;
+    }
+    #news-ct{
+        padding-top:20px;
+        width:95%;
+
+        margin:0 auto;
+        text-align:center;
+    }
+    #news-title span{
+        background:linear-gradient(transparent 70%, #FFFF00 0%);
+    }
+
+    #news-title h1{
+        font-size:22px;
+    }
+    #news-left{
+        background-color: rgba(204, 204, 204, 0.301);
+        margin:10px;
+    }
+    .news-left-title-p{
+        font-size:16px;
+        font-weight:bold;
+    }
+    #news-content li{
+        list-style: none;
+        border-bottom:1px dotted #000;
+        padding:4px 10px;
+        width:90%;
+        margin:0 auto;
+    }
+    
+    #news-content time{
+        font-weight:bold;
+        margin-right:20px;
+    }
+    /* ------ */
+    #search-purpose{
+        
+        width:95%;
+        margin:30px auto;
+        text-align:center;
+    }
+    .search-title{
+        height:4em;
+        
+    }
+    .purpose-indi-title{
+        font-size:19px;
+    }
+
+    #search-purpose-content{
+        width:100%;
+        position:relative;
+        height:800px;
+        border:1px solid red;
+    }
+    .search-purpose-indi{
+        width:48%;
+        border:1px solid rgb(224, 224, 224);
+        margin:20px 0;
+        height:280px;
+    }
+    .search-purpose-indi p{
+        font-size:10px;
+        width:90%;
+        margin:0 auto;
+        margin-top:20px;
+    }
+    .search-purpose-indi img{
+        width:100%;
+    }
+    .purpose-left{
+        position:absolute;
+        left:0;
+
+    }
+    .purpose-left2{
+        top:390px;
+    }
+    .purpose-right{
+        position:absolute;
+        right:0;
+        top:200px;
+    }
+    /* --- */
+    #search-age{
+        width:95%;
+        margin:0 auto;
+        text-align:center;
+        background-color:rgba(213, 230, 255, 0.842);
+        padding:20px 0;
+    }
+    #search-images{
+        width:95%;
+        margin:0 auto;
+        text-align:center;
+    }
+    .search-image-ct{
+        width:30%;
+        display:inline-block;
+    }
+    .search-img{
+        width:70%;
+    }
+    /*  */
+    #more-age-ct{
+        width:100%;
+    }
+    #more-age-select{
+        width:95%;
+        margin:0 auto;
+    }
+    .age-select-indi{
+        width:80%;
+        height:120px;
+        margin:10px auto;
+        position:relative;
+        text-align:center;
+    }
+    .age-select-img-right{
+        position:absolute;
+        height:100%;
+        right:0;
+        z-index:-2;
+    }
+    .age-select-img-left{
+        position:absolute;
+        height:100%;
+        left:0;
+        z-index:-2;
+    }
+    .age-select-title{
+        margin:20px 10px;
+        letter-spacing:1px;
+        font-size:22px;
+        z-index: 88;
+        position:absolute;
+        transform: translate(-50%,-50%);
+        left:50%;
+        top:10%;
+        z-index:1;
+    }
+    .age-desc-left{
+        width:300px;
+        position:absolute;
+        top:65px;
+        left:10px;
+        z-index:88;
+        font-size:10px;
+        text-align:left;
+    }
+    .age-desc-right{
+        width:300px;
+        position:absolute;
+        top:65px;
+        right:10px;
+        letter-spacing:1px;
+        font-size:10px;
+        text-align:left;
+    }
+}
+hr{
+    margin:15px auto;
+}
+*{
+    margin:0;
+    padding:0;
+}
+body{
+    margin:0;
+    padding:0;
+
+}
+
+a,h1,p{
+    text-decoration: none;
+    color:rgb(61, 61, 61);
+}
