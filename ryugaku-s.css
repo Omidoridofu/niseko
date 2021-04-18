@@ -9,7 +9,7 @@ Authour URL: programingbeginer.biz/
 
 /* タイトル　22px */
 
-@media screen and (max-width: 750px){
+@media screen and (max-width: 1000px){
     /* アバウト */
     #about-niseko-ct{
         text-align:center;
