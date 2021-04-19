@@ -10,6 +10,9 @@ Authour URL: programingbeginer.biz/
 /* タイトル　22px */
 
 @media screen and (max-width: 1000px){
+    body{
+        font-family: 'TsukuARdGothic-Regular';
+    }
     /* アバウト */
     #about-niseko-ct{
         text-align:center;
@@ -46,9 +49,10 @@ Authour URL: programingbeginer.biz/
     header{
         text-align:center;
         border-bottom:2px solid rgb(224, 210, 210);
+        height:100px;
     }
     #header-logo{
-        width:90px;
+        height:90px;
     }
     #header-btn-ct{
         display:none;
@@ -66,12 +70,12 @@ Authour URL: programingbeginer.biz/
         height:250px;
     }
     #about2-ct h1{
-        font-size:20px;
+        font-size:30px;
         letter-spacing:1px ;
         padding-top:20px;
     }
     #about2-ct p{
-        font-size:12px;
+        font-size:20px;
         margin-top:20px;
     }
     /* ---- */
