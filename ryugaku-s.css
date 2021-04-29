@@ -1,5 +1,5 @@
 
- /*
+  /*
 Theme Name: koala-wp
 Theme URL: programingbeginer.biz/
 Description: サンプルテーマ
@@ -10,7 +10,6 @@ Authour URL: programingbeginer.biz/
 *{
     margin:0;
     padding:0;
-    overflow-x: hidden;
 }
 body{
     margin:0;
